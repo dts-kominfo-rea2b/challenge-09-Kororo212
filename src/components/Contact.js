@@ -3,8 +3,8 @@
 import React from 'react';
 
 
-const Contact = ({dataKontak}) => {
-    const {name,phone,email,photo} = dataKontak;
+const Contact = ({data}) => {
+    const {name,phone,email,photo} = data;
     return ( <div className='contact'><div className='img'>
         <img src={photo} style={{width:'100px',height:'100px'}} alt='test'/>
         </div>
