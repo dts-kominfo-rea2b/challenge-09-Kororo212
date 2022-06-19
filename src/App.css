@@ -1,4 +1,34 @@
 .App {
   text-align: center;
   display: flex;
+  justify-content: center;
 }
+.contact {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 140px;
+  background-color: blanchedalmond;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+img{
+  border-radius: 50%;
+}
+.isi {
+  line-height: 80%;
+}
+
