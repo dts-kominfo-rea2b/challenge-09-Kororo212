@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
         return ( 
-        <header>
+        <header className:'header'>
                 <h1 className='title'>Call A Friend</h1><p className='sub-title'>"your friendly contact app"</p><span>-----------------------</span>
         </header>)
         }
